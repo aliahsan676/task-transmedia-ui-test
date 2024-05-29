@@ -1,6 +1,7 @@
 package com.ui.test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -17,6 +18,14 @@ public class UITest {
         driver.get("https://juice-shop.herokuapp.com/#/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+
+        driver.findElement(By.id("navbarAccount")).click();
+        driver.findElement(By.id("navbarLoginButton")).click();
+
+
+
+
 
 
 
