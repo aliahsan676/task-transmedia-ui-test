@@ -1,4 +1,4 @@
-# OWASP JUICE SHOP Automation Test - Selenium and Java
+# OWASP JUICE SHOP UI Automation Test - Selenium and Java
 
 This repository contains automated test scripts written in Java using Selenium WebDriver for the automation of a specific flow in an e-commerce website.
 
